@@ -1,0 +1,65 @@
+.logo{
+  width: 200px;
+  height: 80px;
+  object-fit: cover;
+  margin-left: 1rem;
+}
+.navbar{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  background-color:#262626;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hambarger{
+  display: none;
+  position: relative;
+right: 20px;
+}
+
+.bar{
+  height: 2px;
+  width: 27px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+.navlink{
+  display: flex;
+  justify-content: space-evenly;
+  width: 31.25rem;
+  position: relative;
+  right: 12rem;
+
+}
+
+
+.navlink li{
+  list-style: none;
+  
+}
+.navlink a{
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 600px) {
+  .hambarger{
+    display: block;
+  }
+
+.navlink{
+  display: none;
+
+}
+
+}
