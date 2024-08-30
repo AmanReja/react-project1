@@ -5,7 +5,7 @@ import ScrollReveal from "scrollreveal";
 
 function MiddleContent() {
   ScrollReveal({
-    reset: true,
+    reset: false,
 
     delay: 500,
     distance: "60px",
@@ -15,10 +15,10 @@ function MiddleContent() {
     delay: 500,
     origin: "left",
   });
-  ScrollReveal().reveal(".hedline-container h1", {
-    delay: 500,
-    origin: "up",
-  });
+  // ScrollReveal().reveal(".hedline-container h1", {
+  //   delay: 500,
+  //   origin: "up",
+  // });
 
   return (
     <div class="banner-container">
