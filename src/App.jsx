@@ -3,6 +3,7 @@ import MiddleContent from "./components/MiddleContent";
 import Navl from "./components/Navl";
 import ScrollReveal from "scrollreveal";
 import React, { useEffect } from "react";
+import SubmiddleContainer from "./components/SubmiddleContainer";
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
     <>
       <Navl />
       <MiddleContent></MiddleContent>
+      <SubmiddleContainer></SubmiddleContainer>
     </>
   );
 }

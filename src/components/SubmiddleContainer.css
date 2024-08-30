@@ -1,0 +1,54 @@
+.middle-container{
+  height: auto;
+  width: 100%;
+}
+.middel{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+
+}
+.middel h1{
+  font-size: 3rem;
+  padding: 4rem 8rem;
+  
+}
+.middel p{
+ 
+  font-size: larger;
+  padding: 96px 21px;
+  
+  
+  }
+
+  @media  only screen and (max-width:600px) {
+
+
+    .middle-container{
+      height: auto;
+      width: 100%;
+      
+    }
+    .middel{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 0;
+      justify-content: center;
+      gap: -8rem;
+    }
+    .middel h1{
+      font-size: 2rem;
+      padding: 4rem 1rem;
+      
+    }
+    .middel p{
+ 
+      font-size: larger;
+      padding: 0rem 3rem;
+      
+      
+      }
+
+    
+  }
