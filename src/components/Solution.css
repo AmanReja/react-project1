@@ -1,0 +1,50 @@
+.container img{
+  width: 80px;
+height: 80px;
+
+
+}
+.solution-png{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  gap: 23rem;
+  display: flex;
+}
+
+.solution{
+  font-size: 4rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+@media only screen and (max-width:600px){
+
+  .solution-png{
+
+  }
+  .container img{
+    width: 60px;
+  height: 60px;
+  padding: 1rem 1rem;
+
+
+
+}
+.container{
+  gap: 0rem;
+  display: flex;
+}
+.solution{
+  font-size: 2rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+}

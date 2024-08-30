@@ -11,6 +11,10 @@
 .middel h1{
   font-size: 3rem;
   padding: 4rem 8rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
   
 }
 .middel p{

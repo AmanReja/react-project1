@@ -45,6 +45,11 @@
 .hedline-container h1{
   font-size: 2rem;
   color: #FFF;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .contact{
   background-color: #82b440;
