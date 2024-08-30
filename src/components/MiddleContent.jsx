@@ -11,6 +11,7 @@ function MiddleContent() {
     distance: "60px",
     duration: 2500,
   });
+
   ScrollReveal().reveal(".aman", {
     delay: 500,
     origin: "left",
