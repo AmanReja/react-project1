@@ -82,12 +82,17 @@
 
   .banner-container{
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
 
   .hedline-container h1{
     font-size: 1rem;
     color: #FFF;
+  }
+  .hedline-container{
+    align-items: center;
   }
 
   /* .aman{
