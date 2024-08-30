@@ -1,0 +1,107 @@
+.inline-container{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+
+
+}
+.inline-container p{
+  color: black;
+  text-align: left;
+  width: 300px;
+  padding-left: 12px;
+  position: relative;
+  right: 30px;
+  font-size: large;
+  
+
+}
+
+
+.inline-container h3{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+#email{
+  background: url(/src/assets/smallpng/tab.png);
+  background-color:#fc9167;
+  width: 417px;
+  height: 220px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:50px 50px  0 0px;
+}
+#social{
+  background: url(/src/assets/smallpng/tab.png);
+  background-color: #FCDB67;
+  width: 417px;
+  height: 220px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:50px 50px  0 0px;
+}
+#arrow{
+  background: url(/src/assets/smallpng/tab.png);
+  background-color: #6788fc;
+  width: 417px;
+  height: 220px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px 50px  0 0px;
+}
+
+
+
+
+.email-container{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  gap: 60px;
+  align-items: center;
+  border-radius: 50px 50px  0 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.emailimg{
+ position: relative;
+ left: 127px;
+    top: 39px;
+}
+.inline-button{
+  background-color: #82b440;
+  color: #fff;
+  font-size: 14px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    height: 36px;
+    width: 140px;
+    transition: all 0.5s;
+    bottom: 20px;
+    position: relative;
+   /* right: 100px; */
+}
+.inline-button:hover{
+  background-color: #262626;
+  transform: scale(1.2);
+}

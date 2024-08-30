@@ -5,6 +5,7 @@ import ScrollReveal from "scrollreveal";
 import React, { useEffect } from "react";
 import SubmiddleContainer from "./components/SubmiddleContainer";
 import Solution from "./components/Solution";
+import Card from "./components/Card";
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
       <MiddleContent></MiddleContent>
       <SubmiddleContainer></SubmiddleContainer>
       <Solution></Solution>
+      <Card></Card>
     </>
   );
 }
