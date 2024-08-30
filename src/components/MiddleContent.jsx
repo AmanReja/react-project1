@@ -1,26 +1,7 @@
 import React from "react";
 import "./MiddleContent.css";
 import banner from "../assets/banner/banner.png";
-import ScrollReveal from "scrollreveal";
-
 function MiddleContent() {
-  ScrollReveal({
-    reset: false,
-
-    delay: 500,
-    distance: "60px",
-    duration: 2500,
-  });
-
-  ScrollReveal().reveal(".aman", {
-    delay: 500,
-    origin: "left",
-  });
-  // ScrollReveal().reveal(".hedline-container h1", {
-  //   delay: 500,
-  //   origin: "up",
-  // });
-
   return (
     <div class="banner-container">
       <img class="aman" src={banner} alt="" />

@@ -2,15 +2,24 @@ import "./App.css";
 import MiddleContent from "./components/MiddleContent";
 import Navl from "./components/Navl";
 import ScrollReveal from "scrollreveal";
+import React, { useEffect } from "react";
 
 function App() {
-  ScrollReveal({
-    reset: false,
-
-    delay: 500,
-    distance: "60px",
-    duration: 2500,
-  });
+  useEffect(() => {
+    ScrollReveal({ reset: true });
+    ScrollReveal().reveal(".hedline-container h1", {
+      duration: 2500,
+      origin: "top",
+      distance: "60px",
+      delay: 400,
+    });
+    ScrollReveal().reveal(".aman", {
+      duration: 500,
+      origin: "left",
+      distance: "60px",
+      delay: 400,
+    });
+  }, []);
   return (
     <>
       <Navl />
