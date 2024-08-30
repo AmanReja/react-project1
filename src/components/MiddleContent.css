@@ -39,6 +39,9 @@
 
  
 }
+.stardiv{
+  color: #fff;
+}
 .hedline-container h1{
   font-size: 2rem;
   color: #FFF;
@@ -93,6 +96,8 @@
     padding: 2rem 4rem;
     text-align: center;
     color: #fff;
+    position: relative;
+    bottom: 30px;
   }
   .hedline-container h1{
     font-size: 2rem;
@@ -100,11 +105,15 @@
     padding: 2rem 2rem;
     text-align: center;
   }
+  .stardiv{
+    width: 4rem;
+  }
   .hedline-container{
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-content: center;
-    padding: 2rem 2rem;
+    padding: 0rem 3rem;
+
     
   }
 
