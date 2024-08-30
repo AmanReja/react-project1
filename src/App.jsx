@@ -16,6 +16,18 @@ function App() {
       distance: "60px",
       delay: 400,
     });
+    ScrollReveal().reveal("#social-container", {
+      duration: 700,
+      origin: "left",
+      distance: "60px",
+      delay: 400,
+    });
+    ScrollReveal().reveal("#emailing-container", {
+      duration: 700,
+      origin: "right",
+      distance: "60px",
+      delay: 400,
+    });
     ScrollReveal().reveal(".aman", {
       duration: 500,
       origin: "left",
