@@ -93,6 +93,8 @@
   }
   .hedline-container{
     align-items: center;
+    gap: 1rem;
+    justify-content: center;
   }
 
   /* .aman{
