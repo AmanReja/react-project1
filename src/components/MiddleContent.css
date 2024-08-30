@@ -87,8 +87,12 @@
   }
 
 
+  .hedline-container p{
+    padding: 2rem 4rem;
+    text-align: center;
+  }
   .hedline-container h1{
-    font-size: 1rem;
+    font-size: 2rem;
     color: #FFF;
   }
   .hedline-container{
