@@ -7,7 +7,7 @@ function MiddleContent() {
   ScrollReveal({
     reset: true,
 
-    delay: 400,
+    delay: 500,
     distance: "60px",
     duration: 2500,
   });

@@ -74,16 +74,20 @@
 
 @media only screen and (max-width: 600px){
 
+  .banner-container{
+    width: 100%;
+  }
+
 
   .hedline-container h1{
     font-size: 1rem;
     color: #FFF;
   }
 
-  .aman{
+  /* .aman{
     width: 11rem;
   height: 11rem;
-  }
+  } */
 
   .banner-container{
     display: flex;
