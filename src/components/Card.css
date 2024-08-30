@@ -1,13 +1,13 @@
 .inline-container{
-  height: auto;
+  height: 900px;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 10px;
-  flex-wrap: wrap;
-  padding-top: 3rem;
+  /* flex-wrap: wrap; */
+  /* padding-top: 3rem; */
 
 
 }
@@ -104,4 +104,25 @@
 .inline-button:hover{
   background-color: #262626;
   transform: scale(1.2);
+}
+
+@media only screen and (max-width:600px){
+
+  .inline-container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .inline-container p{
+    color: black;
+    text-align: center;
+    width: 300px;
+    /* padding-left: 12px; */
+    position: relative;
+    left: 0;
+   
+    font-size: large;
+    
+  
+  }
 }

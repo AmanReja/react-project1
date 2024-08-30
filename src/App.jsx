@@ -9,30 +9,43 @@ import Card from "./components/Card";
 
 function App() {
   useEffect(() => {
-    ScrollReveal({ reset: true });
     ScrollReveal().reveal(".hedline-container h1", {
       duration: 2500,
       origin: "top",
       distance: "60px",
       delay: 400,
-    });
-    ScrollReveal().reveal("#social-container", {
-      duration: 700,
-      origin: "left",
-      distance: "60px",
-      delay: 400,
-    });
-    ScrollReveal().reveal("#emailing-container", {
-      duration: 700,
-      origin: "right",
-      distance: "60px",
-      delay: 400,
+      reset: true,
     });
     ScrollReveal().reveal(".aman", {
       duration: 500,
       origin: "left",
       distance: "60px",
       delay: 400,
+      reset: true,
+    });
+    ScrollReveal().reveal("#social-container", {
+      duration: 900,
+      origin: "left",
+      distance: "60px",
+      delay: 400,
+      reset: true,
+      mobile: false,
+    });
+    ScrollReveal().reveal("#arrow-container", {
+      duration: 900,
+      origin: "bottom",
+      distance: "60px",
+      delay: 400,
+      reset: true,
+      mobile: false,
+    });
+    ScrollReveal().reveal("#emailing-container", {
+      duration: 900,
+      origin: "right",
+      distance: "60px",
+      delay: 400,
+      reset: true,
+      mobile: false,
     });
   }, []);
   return (
